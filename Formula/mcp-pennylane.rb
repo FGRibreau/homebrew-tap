@@ -1,26 +1,26 @@
 class McpPennylane < Formula
   desc "MCP server for the Pennylane Company API v2 — manage your accounting from Claude"
   homepage "https://github.com/FGRibreau/mcp-pennylane"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.1.0/mcp-pennylane-x86_64-apple-darwin.tar.gz"
-      sha256 "5da1e235a4b5b0a3e750baebf0c2a793b1234baa60306f5f3a9a31ba17bce41b"
+      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.2.0/mcp-pennylane-x86_64-apple-darwin.tar.gz"
+      sha256 "db44439046acaa4a42c0d8eb443a8c1433e021c93f932597cf81b296080b8ad0"
     else
-      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.1.0/mcp-pennylane-aarch64-apple-darwin.tar.gz"
-      sha256 "a99d8843b17da2d7ee59a1d036aabaa95832f36564a71a48fc810bc491768784"
+      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.2.0/mcp-pennylane-aarch64-apple-darwin.tar.gz"
+      sha256 "415a6a22e753b5e0f3a3b850217aebe30d0d8838f41d23bb8db9c87fdc23858e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.1.0/mcp-pennylane-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "69d5b25f2287604e5e4804ad40406d2d97d49c78954d65676d75d5ac29c02cb8"
+      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.2.0/mcp-pennylane-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "adafe17c69499482a8b4ace6404788969b3535bc94493a8dfca9cb7912d25a4e"
     else
-      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.1.0/mcp-pennylane-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c0b16f4862f77978cb809c4e4d32383fedcfadf5be1883ea1a9e60cf0005bd2b"
+      url "https://github.com/FGRibreau/mcp-pennylane/releases/download/v0.2.0/mcp-pennylane-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e0af658422104eb12857d59f27691f1e7bdbae85720570b99bd43c8b518c9506"
     end
   end
 

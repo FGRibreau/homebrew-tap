@@ -1,8 +1,8 @@
 class CargoCleanTargets < Formula
   desc "Cargo subcommand: strip target/ caches across a tree, keep only compiled binaries"
   homepage "https://github.com/FGRibreau/cargo-clean-targets"
-  url "https://github.com/FGRibreau/cargo-clean-targets/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "25992fd2acd5d45845c71217cd39808b8ae2bf534c10d735e78e7e81b427eae7"
+  url "https://github.com/FGRibreau/cargo-clean-targets/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "bacc50a7862d59ecd4f5bc82188d90a653ff75afcc69e793b74448e73779f722"
   license "MIT"
   head "https://github.com/FGRibreau/cargo-clean-targets.git", branch: "main"
 
